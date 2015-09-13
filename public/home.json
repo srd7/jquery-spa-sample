@@ -1,0 +1,6 @@
+{
+  "notification": [
+    { "timestamp": 1442111771, "contents": "今日はいい天気ですね" },
+    { "timestamp": 1442101771, "contents": "サーバーメンテナンスを実行しました" }
+  ]
+}

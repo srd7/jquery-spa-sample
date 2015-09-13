@@ -1,9 +1,9 @@
 {
-  "name": "jquery-spa-sample",
+  "name": "jquery-spa-sample-with-webpack",
   "version": "1.0.0",
   "description": "Create Single Page Application only with jQuery",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp --gulpfile ../gulpfile.js with-webpack"
   },
   "repository": {
     "type": "git",
@@ -15,15 +15,5 @@
     "url": "https://github.com/srd7/jquery-spa-sample/issues"
   },
   "homepage": "https://github.com/srd7/jquery-spa-sample#readme",
-  "dependencies": {
-    "express": "^4.13.3",
-    "gulp": "^3.9.0",
-    "gulp-nodemon": "^2.0.4",
-    "jade": "^1.11.0",
-    "jade-loader": "^0.7.1",
-    "jquery": "^2.1.4",
-    "rimraf": "^2.4.3",
-    "webpack-stream": "^2.1.0"
-  },
   "private": true
 }
