@@ -11,7 +11,7 @@ var routing = {
     path: "/",
     title: "Home",
     html: require("./templates/home.jade"),
-    data: "/home.json",
+    data: "/json/home.json",
     callback: function (data) {
       var $ul = $("ul.notification");
       $.each(data.notification, function (key, item) {
@@ -27,7 +27,7 @@ var routing = {
     },
     html: require("./templates/page.jade"),
     data: function (id) {
-      return "/page" + id + ".json";
+      return "/json/page" + id + ".json";
     },
     callback: function (data) {
       $("p.title").text(data.title);

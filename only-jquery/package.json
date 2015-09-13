@@ -1,0 +1,19 @@
+{
+  "name": "jquery-spa-sample-only-jquery",
+  "version": "1.0.0",
+  "description": "Create Single Page Application only with jQuery",
+  "scripts": {
+    "dev": "gulp --gulpfile ../gulpfile.js only-jquery"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srd7/jquery-spa-sample.git"
+  },
+  "author": "srd7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srd7/jquery-spa-sample/issues"
+  },
+  "homepage": "https://github.com/srd7/jquery-spa-sample#readme",
+  "private": true
+}

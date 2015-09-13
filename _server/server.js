@@ -7,7 +7,7 @@ var server = express();
 server.use(express.static("build"));
 server.use(express.static("public"));
 
-var html = jade.compileFile("./_server/index.jade", { pretty: true })();
+var html = jade.compileFile("./_server/index.jade", { pretty: true })({ mode: process.env.MODE });
 
 server.use(function (req, res) {
   res.write(html);
